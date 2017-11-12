@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import Profile from './components/Profile.js'; 
+import { Col, Grid, Row } from 'react-bootstrap'
 
 const App = props => {
+    const profileData = props.jsonObj.basics; 
     return (
-      <section className="about">
-        <h2 className="text-uppercase"><i className="fa fa-lg fa-user"></i> About</h2>
-        <div>{props.jsonObj.basics.name}</div>
-      </section>
+      <div className="container"> 
+        <div className="row"> 
+          <Profile profileData={profileData} /> 
+        </div>
+      </div> 
     );
 };
+
+
 
 export default App;
