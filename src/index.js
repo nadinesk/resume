@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+const json = require('./resume.json'); // load resume file
+
+ReactDOM.render(
+  <App jsonObj={json} />,
+  document.getElementById('root')
+);
