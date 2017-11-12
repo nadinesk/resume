@@ -1,0 +1,124 @@
+{
+basics: {
+name: "Nadine Fischoff",
+label: "Web Developer, Data Analyst",
+email: "nadine.khattak@gmail.com",
+website: "https://nadinesk.github.io/",
+summary: "Full stack web developer and data analyst with experience in Ruby on Rails, JavaScript, R and SQL. I discovered web development through my work with government and policy analysis, and use programming to help organizations automate processes and retrieve, organize, and understand their data. Passionate about all things related to coding, health, and politics, I also developed five iOS apps as a side project while learning to code.",
+profiles: [
+{
+network: "LinkedIn",
+username: "nadinefischoff",
+url: "https://www.linkedin.com/in/nadinefischoff/"
+},
+{
+network: "Github",
+username: "nadinesk",
+url: "https://github.com/nadinesk"
+}
+]
+},
+projects: [
+{
+title: "Decider",
+code: ["https://github.com/nadinesk/decision-helper-client", 
+		"https://github.com/nadinesk/decision-helper-api"],
+demo: "https://thawing-reaches-13962.herokuapp.com/",
+description: "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+tech: "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku.",
+},
+{
+title: "BookCrowd",
+code: "https://github.com/nadinesk/book-client", 		
+demo: "http://glacial-atoll-99448.herokuapp.com/",
+description: "Crowdsources books that other users have read and offers ideas for new books to read.",
+tech: "Used React and Redux to create the front-end; built the backend API using Ruby on Rails.",
+},
+{
+title: "Playlister",
+code: "https://github.com/nadinesk/playlister", 		
+demo: "https://www.youtube.com/watch?v=DddTbqH4Kms&t=154s",
+description: "Allows users to add TV shows to playlists.",
+tech: "Built the backend API using Ruby on Rails, and the front-end using JQuery; used OmniAuth for OAuth authentication.",
+},
+{
+title: "BigRQuery and SF and NYC 311 Complaints Comparison",
+code: "https://github.com/nadinesk/sf_nyc_311_days", 		
+demo: "https://nadinesk.github.io/r,/data,/google/big/bigquery,/311,/san/francisco,/new/york/city/2017/06/06/sf-nyc-311-days.html",
+description: "Used R and SQL to analyze and compare frequencies and complaints on NYC 311, using Google BigQuery’s public data ",
+tech: "R and SQL",
+},
+],
+work:[
+{
+company: "New York City Department of Education",
+position: "Data and Evaluation Manager",
+website: "",
+startDate: "2016-06-01",
+endDate: "present",
+summary: [
+	"Use R and SQL to automate the creation of a year-end dataset determining the allocation of around $20 million of funding for the Career and Technical Education (CTE) Program",
+	"Use R, RMarkdown, and SQL to automate the creation of summary sheets with demographic, enrollment, and funding data for all schools in the CTE portfolio (around 120 schools)", 
+	"Develop research documents to inform policy recommendations, with demographic and student performance data"
+],
+},
+{
+company: "New York University",
+position: "Data Manager",
+website: "",
+startDate: "2015-06-01",
+endDate: "2016-06-01",
+summary: [
+	"Developed and maintained databases for all stewardship-related data, including donor societies for gifts of up to $999,999, and gifts over $1 million",
+	"Planned, managed, and executed ahead of schedule, a scholarship reporting program for major gifts", 
+	"Managed the accessibility and use of a website that students used to updated scholarship profiles"
+],
+},
+{
+company: "San Francisco Public Utilities Commission",
+position: "Budget Analyst",
+website: "",
+startDate: "2008-03-01",
+endDate: "2013-10-01",
+summary: [
+"Conducted financial and budgetary analysis and reported findings to management",
+"Developed and monitored departmental budgets totaling over $400 million"
+],
+},
+],
+education: [
+{
+institution: "American University",
+area: "Public Policy",
+studyType: "Masters of Public Policy",
+startDate: "2005-09-01",
+endDate: "2007-05-01",
+description: [ ]
+}, 
+{
+institution: "Emory University",
+area: "Political Science",
+studyType: "Bachelors of Arts",
+startDate: "1999-00-01",
+endDate: "2003-05-01",
+description: [ "Focus on Public Finance, with statistics coursework" ]
+}, 
+{
+institution: "Flatiron School",
+area: "Full Stack Web Development, Ruby on Rails and JavaScript online program",
+studyType: "",
+startDate: "2017",
+endDate: "2017",
+description: ["Women in Tech Scholarship Recipient" ]
+}, 
+],
+skills: [
+{
+name: ["Full Stack Web Developer", "Data Analyst", "Data Scientist"],
+keywords: [
+"R", "SQL", "Ruby", "Rails", "Javascript", "React", "Redux", "HTML", "CSS", "Java", "C", "SPSS", "D3.js"
+]
+}
+]
+
+}
