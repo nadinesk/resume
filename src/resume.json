@@ -17,5 +17,19 @@
         "url": "https://github.com/nadinesk"
       }
     ]
-  }
+  }, 
+   "work": 
+    {
+      "company": "NYC Department of Education",
+      "position": "Data and Evaluation Manager",      
+      "startDate": "2016-06-01",
+      "endDate": "",
+      "summary": 
+        {
+        "first": "Use R and SQL to automate the creation of datasets to help determine portions of school funding related to the Career and Technical Education (CTE) program", 
+        "second":  "Use R, RMarkdown, and SQL to automate the creation of reports with demographic, enrollment, and funding data for schools in the CTE portfolio",
+        "third": "Develop research documents for the CTE program, with demographic and school performance data"        
+      }      
+    }
+  
 }
