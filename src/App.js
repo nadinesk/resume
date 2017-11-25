@@ -15,8 +15,9 @@ const App = props => {
         <div className="row"> 
           <Profile profileData={profileData} /> 
           <Work workData={workData} /> 
-          <Education educationData={educationData} /> 
           <Skills skillsData={skillsData} /> 
+          <Education educationData={educationData} /> 
+          
         </div>
       </div> 
     );

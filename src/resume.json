@@ -69,7 +69,7 @@
      {
       "institution": "American University",
       "area": "Public Policy",
-      "studyType": "Masters of Public Policy",
+      "studyType": "Masters of Public Policy: Focus on Public Finance, with statistics coursework",
       "startDate": "2005",
       "endDate": "2007",
       "gpa": "",
@@ -79,11 +79,11 @@
     {
       "institution": "Emory University",
       "area": "Political Science",
-      "studyType": "Masters of Public Policy",
+      "studyType": "Bachelor of Arts: Political Science",
       "startDate": "2005",
       "endDate": "2007",
       "gpa": "",
-      "honors": "Pi Alpha Alpha", 
+      "honors": "", 
       "courses": "Focus on Public Finance, with statistics coursework"
     }
   ], 

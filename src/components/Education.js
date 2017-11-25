@@ -6,16 +6,16 @@ const Education = props => {
   		
   		return (
           <div>
-            <div>{item.studyType} {item.area}</div>
-  				  <div>{item.institution}</div>
-  				  <div>Studied: {item.startDate} - {item.endDate}</div>
+            <h5>{item.institution}, {item.endDate}</h5>
+            <div>{item.studyType} </div>  				    				
+            <div>{item.honors} </div>                      
   				</div>
         )
   	});
 
   	return (
   	  <section className="education">
-        <div>Education</div>
+        <h3>Education</h3>
         {getEducation}
       </section>
   	)
