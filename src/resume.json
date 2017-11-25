@@ -18,18 +18,77 @@
       }
     ]
   }, 
-   "work": 
+   "work": [ 
     {
-      "company": "NYC Department of Education",
+      "company": "New York City Department of Education",
       "position": "Data and Evaluation Manager",      
-      "startDate": "2016-06-01",
-      "endDate": "",
+      "startDate": "June 2016",
+      "endDate": "present",
+      "summary": [        
+       "Use R and SQL to automate the creation of datasets to help determine portions of school funding related to the Career and Technical Education (CTE) program", 
+       "Use R, RMarkdown, and SQL to automate the creation of reports with demographic, enrollment, and funding data for schools in the CTE portfolio",
+       "Develop research documents for the CTE program, with demographic and school performance data"        
+      ]     
+    },
+    {
+      "company": "New York University",
+      "position": "Data Manager",      
+      "startDate": "June 2015",
+      "endDate": "June 2016",
       "summary": 
-        {
-        "first": "Use R and SQL to automate the creation of datasets to help determine portions of school funding related to the Career and Technical Education (CTE) program", 
-        "second":  "Use R, RMarkdown, and SQL to automate the creation of reports with demographic, enrollment, and funding data for schools in the CTE portfolio",
-        "third": "Develop research documents for the CTE program, with demographic and school performance data"        
-      }      
+        [
+        "Developed and maintained databases for all stewardship-related data, including donor societies for gifts of up to $999,999, and gifts over $1 million", 
+        "Planned, managed, and executed ahead of schedule, a scholarship reporting program for major gifts",
+        "Managed the accessibility and use of a website that students used to updated scholarship profiles"
+      ]     
+    }, 
+    {
+      "company": "San Francisco Public Utilities Commission",
+      "position": "Budget Analyst",      
+      "startDate": "March 2008",
+      "endDate": "October 2013",
+      "summary": 
+        [
+        "Conducted financial and budgetary analysis and reported findings to management", 
+        "Developed and monitored departmental budgets totaling over $400 million"
+
+      ]     
+    } 
+  ],
+  "education": [
+    {
+      "institution": "Flatiron School",
+      "area": "Music",
+      "studyType": "Full Stack Web Development, Ruby on Rails and JavaScript online program",
+      "startDate": "2017",
+      "endDate": "2017",
+      "gpa": "",
+      "honors": "Women in Tech Scholarship Recipient", 
+      "courses": []
+    },
+     {
+      "institution": "American University",
+      "area": "Public Policy",
+      "studyType": "Masters of Public Policy",
+      "startDate": "2005",
+      "endDate": "2007",
+      "gpa": "",
+      "honors": "Pi Alpha Alpha", 
+      "courses": "Focus on Public Finance, with statistics coursework"
+    }, 
+    {
+      "institution": "Emory University",
+      "area": "Political Science",
+      "studyType": "Masters of Public Policy",
+      "startDate": "2005",
+      "endDate": "2007",
+      "gpa": "",
+      "honors": "Pi Alpha Alpha", 
+      "courses": "Focus on Public Finance, with statistics coursework"
     }
-  
+  ], 
+    "skills": [    
+       "R", "SQL", "Ruby", "Rails", "Javascript", "React", "Redux", "HTML", "CSS", "Java", "C", "SPSS", "D3.js"
+      ]
+    
 }
