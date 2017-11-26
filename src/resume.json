@@ -18,6 +18,33 @@
       }
     ]
   }, 
+
+   "projects": [ 
+    {
+      "title": "Decider",
+      "github": "https://github.com/nadinesk/decision-helper-client",      
+      "demo": "https://thawing-reaches-13962.herokuapp.com",      
+      "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+      "summary":         
+       "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."            
+    },
+    {
+      "title": "BookCrowd",
+      "github": "https://github.com/nadinesk/decision-helper-client",      
+      "demo": "https://thawing-reaches-13962.herokuapp.com",      
+      "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+      "summary":         
+       "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."                 
+    }, 
+    {
+     "title": "Decider",
+      "github": "https://github.com/nadinesk/decision-helper-client",      
+      "demo": "https://thawing-reaches-13962.herokuapp.com",      
+      "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+      "summary":         
+       "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."            
+    } 
+  ],
    "work": [ 
     {
       "company": "New York City Department of Education",
