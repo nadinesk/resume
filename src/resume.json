@@ -22,27 +22,35 @@
    "projects": [ 
     {
       "title": "Decider",
-      "github": "https://github.com/nadinesk/decision-helper-client",      
-      "demo": "https://thawing-reaches-13962.herokuapp.com",      
+      "github": ["https://github.com/nadinesk/decision-helper-client",  "https://github.com/nadinesk/decision-helper-api"],
+      "demo": ["https://thawing-reaches-13962.herokuapp.com"],      
       "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
       "summary":         
        "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."            
     },
     {
       "title": "BookCrowd",
-      "github": "https://github.com/nadinesk/decision-helper-client",      
-      "demo": "https://thawing-reaches-13962.herokuapp.com",      
-      "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+      "github": ["https://github.com/nadinesk/book-client/"],      
+      "demo": ["http://glacial-atoll-99448.herokuapp.com/"],      
+      "description": "Crowdsources books that other users have read and offers ideas for new books to read.",
       "summary":         
-       "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."                 
+       "Used React and Redux to create the front-end; built the backend API using Ruby on Rails. "                 
     }, 
     {
-     "title": "Decider",
-      "github": "https://github.com/nadinesk/decision-helper-client",      
-      "demo": "https://thawing-reaches-13962.herokuapp.com",      
-      "description": "Provides guidance in making decisions. Logged in users enter questions and pros and cons for them.",
+     "title": "Playlister",
+      "github": ["https://github.com/nadinesk/playlister"],      
+      "demo": ["https://www.youtube.com/watch?v=DddTbqH4Kms&t=154s"],      
+      "description": "Allows users to add TV shows to playlists.",
       "summary":         
-       "Created front-end with React & Redux; created backend API with Rails and Postgres database; deployed with Heroku."            
+       "Built the backend API using Ruby on Rails, and the front-end using JQuery; used OmniAuth for OAuth authentication."            
+    }, 
+     {
+     "title": "R Package: ProPubBills",
+      "github": ["https://github.com/nadinesk/proPubBills"],            
+      "demo": ["https://cran.r-project.org/web/packages/proPubBills/proPubBills.pdf",  "https://nadinesk.github.io/r,/package,/propublica,/congress,/bills,/politics/2017/11/19/my-first-r-package.html"], 
+      "description": "An API wrapper around the ProPublica API, https://projects.propublica.org/apidocs/congress-api/, for U.S. Congressional Bills.",
+      "summary":         
+       "Developed with R. Returns a dataframe with all U.S. Congressional House and Senate bills and info from the ProPublica Congress API within the arguments’ parameters"            
     } 
   ],
    "work": [ 
