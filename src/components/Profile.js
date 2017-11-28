@@ -9,8 +9,8 @@ const Profile = props => {
 	return (
 		<div> 
 			<h1> {profileObj.name} </h1>			
-			<span><a href={`mailto:${profileObj.email}`}><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-			<a href={profileObj.website}><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+			<span><a href={`mailto:${profileObj.email}`}><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+			<a href={profileObj.website}><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
 			{profiles_map} </span> 
 			<div>
 				{profileObj.summary} 
