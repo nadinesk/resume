@@ -7,7 +7,7 @@ const Education = props => {
   		return (
           <Row>
             <Col md={12} className="education-section reg-text">
-              <div class="edu-institution">{item.institution}, {item.endDate}</div>
+              <h4 class="edu-institution">{item.institution}, {item.endDate}</h4>
               <div>{item.studyType} </div>  				    				
               <div>{item.honors} </div>                      
             </Col>
