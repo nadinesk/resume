@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap'
 
 const Skills = props => {
     
@@ -7,10 +8,12 @@ const Skills = props => {
         ))  
 
   		return (
-          <div>
-            <h3>Skills</h3> 
-            <div>{skills_map} </div>  				  
-  				</div>
+          <Row>
+            <Col md={12}>
+              <h3>Skills</h3> 
+              <div className="reg-text">{skills_map} </div>  				  
+            </Col>
+  				</Row>
         )
   	};
   	

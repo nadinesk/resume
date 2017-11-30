@@ -1,4 +1,58 @@
+body {
+	margin-bottom: 2em;
+	margin-top: 2em;	
+	font-family: 'Lora', serif;
+	line-height: 1.5;
+}
+
+.reg-text {
+	font-size: 1.1em;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+h5 {
+	margin-top: 0.5em;	
+}
+
+h4 {
+	font-weight: 600;
+	margin-bottom: 0.4em;
+}
+
 
 .fa {
   margin: 5px;
 }
+
+
+.center-text {
+	text-align: center;
+}
+
+.make-margins {
+	margin-top: 1em;
+}
+
+.work-company {
+	margin-bottom: 0.2em;
+}
+
+.education-section {
+	margin-bottom: 0.5em;
+}
+
+.edu-institution {
+	font-weight: 800;
+}
+
+.other-stuff {
+	font-size: 0.9em;
+	margin-top: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+

@@ -25,7 +25,7 @@ const ProjectItem = props => {
 const projectDemo_map = (projectObj.demo.length > 1) ? (
       projectDem= projectObj.demo.map((demolink, key) => (           
               (key === 0) ? 
-              <span><a href={demolink}>Package</a>, </span> 
+              <span><a href={demolink}>Package</a>  &nbsp; | &nbsp; </span> 
               : 
               <span><a href={demolink}>Usage</a> </span>         
         ))      
@@ -39,8 +39,8 @@ const projectDemo_map = (projectObj.demo.length > 1) ? (
     return (
         <div>
           <h4>{props.projectItemData.title}</h4>
-          <div>Code: {projectGithub_map} &nbsp;</div> 
-          <div>{projectDemo_map}</div>     
+          <span>Code: {projectGithub_map} &nbsp; | &nbsp;
+            {projectDemo_map}</span>     
           
           <div>
            {props.projectItemData.description}

@@ -11,11 +11,11 @@ const WorkItem = props => {
     
     return (
         <div>
-          <h4>{props.workItemData.company}</h4>
-          <span><h5>{props.workItemData.position}, &nbsp;
-          {props.workItemData.startDate} - {props.workItemData.endDate}</h5> </span>       
+          <h4 className="work-company">{props.workItemData.company}</h4>
+          <span className="reg-text">{props.workItemData.position}, &nbsp;
+          {props.workItemData.startDate} - {props.workItemData.endDate} </span>       
           
-          <ul> 
+          <ul className="reg-text"> 
            {workSummary_map}
           </ul>
           
